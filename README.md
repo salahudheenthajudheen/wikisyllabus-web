@@ -35,3 +35,7 @@ The commit SHA is stored in the index, so downloaded packs fetch the exact sylla
 GitHub Pages, via `.github/workflows/deploy.yml`. On every push to `main`, daily at 02:00 IST, and on demand
 (Actions → Build and deploy → Run workflow), it clones the latest WikiSyllabus, rebuilds `site/data/courses.json`
 and publishes `site/`. One-time setup: Settings → Pages → Source: **GitHub Actions**.
+
+## License
+
+[MIT](LICENSE), © The Purple Movement. Syllabus content comes from [WikiSyllabus](https://github.com/The-Purple-Movement/WikiSyllabus), also MIT.
